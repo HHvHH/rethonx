@@ -49,7 +49,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-   1041483862,
+   1397042354,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@RRJRJ"))
+        await sython(JoinChannelRequest("@namerick"))
     except BaseException:
         pass
 
@@ -79,12 +79,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ WELCOME TO حلم
+**☆ WELCOME TO ريثون
 ☆ VERSION : 3.3
 ☆ PING : `{ms}`
 ☆ DATE : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ SOURCE حلم : @awaaa**
+☆ SOURCE ريثون : @hvvhh**
 
 -قـم بأرسال `.الاوامر`
 ''')
@@ -119,7 +119,7 @@ ownerhson_id = 1041483862
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('هنا يمك حلم ابشر  @H_P_K')
+        order = await event.reply('هنا يمك حيدر ابشر  @hvvhh')
 
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -150,7 +150,7 @@ async def _(event):
                                                    offset_date=None, offset_id=0, max_id=0, min_id=0, add_offset=0, hash=0))
             msgs = list.messages[0]
             if msgs.message.find('لا يوجد قنوات في الوقت الحالي , قم يتجميع النقاط بطريقه مختلفه') != -1:
-                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | SY")
+                await sython.send_message(event.chat_id, f"لايوجد قنوات  في البوت | RE")
                 break
             url = msgs.reply_markup.rows[0].buttons[0].url
             try:
@@ -374,7 +374,7 @@ async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=Fal
             pass
 
 
-@sython.on(events.NewMessage(outgoing=True, pattern=".مؤقت (.*)"))
+@sython.on(events.NewMessage(outgoing=True, pattern=".مجفص (.*)"))
 async def spammer(event):
     reply = await event.get_reply_message()
     input_str = "".join(event.text.split(maxsplit=1)[1:]).split(" ", 2)
@@ -387,7 +387,7 @@ async def spammer(event):
     
 @sython.on(events.NewMessage(outgoing=True, pattern=".سورس"))
 async def _(event):
-      await event.reply("""السـورس يعمـل |حلم
+      await event.reply("""السـورس يعمـل |ريثون
 ╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍╍
 
 
@@ -397,7 +397,7 @@ async def _(event):
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".مطور"))
 async def _(event):
-      await event.reply("""حلم : @RRJRJ"""
+      await event.reply("""ريثون : @hvvhh"""
 )
 
 @sython.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
