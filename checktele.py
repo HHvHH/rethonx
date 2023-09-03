@@ -270,10 +270,23 @@ async def _(event):
                 try:
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
-                    await event.client.send_message(event.chat_id, f'''
-𝐔𝐒𝐄𝐑 : @{username}        
-CH / @awaaa - @H_P_K
-    ''')
+                    await event.client.send_file(
+                    event.chat_id,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
+                )
+                await event.client.send_file(
+                    ch,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
+                )
+                await event.client.send_message(
+                    "@hvvhh", f"- Done : @{username} !\n- By : @HvvHH - @ss_sz !"
+                )
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
                     with open("banned.txt", "a") as f:
@@ -328,11 +341,23 @@ async def _(event):
                     try:
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
-                        await event.client.send_message(event.chat_id, f'''
-𝐔𝐒𝐄𝐑 : @{username}        
-CH / @awaaa - @H_P_K
-
-    ''')
+                        await event.client.send_file(
+                    event.chat_id,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
+                )
+                await event.client.send_file(
+                    ch,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
+                )
+                await event.client.send_message(
+                    "@hvvhh", f"- Done : @{username} !\n- By : @HvvHH - @ss_sz !"
+                )
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
                         await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
@@ -361,10 +386,23 @@ CH / @awaaa - @H_P_K
             try:
                 await sython(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
-                await event.client.send_message(event.chat_id, f'''
-𝐔𝐒𝐄𝐑 : @{username}        
-CH / @awaaa - @H_P_K
-    ''')
+                await event.client.send_file(
+                    event.chat_id,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
+                )
+                await event.client.send_file(
+                    ch,
+                    "https://t.me/namerick/3",
+                    caption="🐊 hayder the best 🐊\n- - - - - - - - - - - - - - - - - - - - - - - -\n- UserName: ❲ @{} ❳\n- ClickS: ❲ {} ❳\n- Type: {}\n- Save: ❲ Chaneel ❳\n- - - - - - - - - - - - - - - - - - - - - - - -\nThE Hayder ❲ @ss_sz - @HvvHH ❳ ".format(
+                        username, trys, choice
+                    ),
+                )
+                await event.client.send_message(
+                    "@hvvhh", f"- Done : @{username} !\n- By : @HvvHH - @ss_sz !"
+                )
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
             except Exception as eee:
