@@ -201,20 +201,6 @@ def gen_user(choice):
     if choice == "13":
         c = d = random.choices(a)
         d = random.choices(e)
-        f =  [c[0], c[0], d[0], c[0], c[0]]
-        random.shuffle(f)
-        username = ''.join(f)
-        if username in banned[0]:
-            c = d = random.choices(a)
-            d = random.choices(b)
-            f =  [c[0], c[0], d[0], c[0], c[0]]
-            random.shuffle(f)
-            username = ''.join(f)
-        else:
-            pass
-            if choice == "14":
-        c = d = random.choices(a)
-        d = random.choices(e)
         f =  [c[0], d[0], d[0], d[0], c[0]]
         random.shuffle(f)
         username = ''.join(f)
@@ -285,8 +271,10 @@ async def _(event):
                     await sython(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-𝐔𝐒𝐄𝐑 : @{username}        
-CH / @HvvHH - @NameRick
+Hi bro 🫦.
+User : @{username} .      
+Hayder : @HvvHH .
+CH : @ss_sz .
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
