@@ -61,7 +61,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@namerick"))
+        await sython(JoinChannelRequest("@hvvhh"))
     except BaseException:
         pass
 
@@ -223,7 +223,7 @@ logging.basicConfig(
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@RRJRJ"))
+        await sython(JoinChannelRequest("@hvvhh"))
     except BaseException:
         pass
  
